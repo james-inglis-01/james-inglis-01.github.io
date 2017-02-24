@@ -1,11 +1,12 @@
 body {
     background-image: url(https://static.pexels.com/photos/48708/pexels-photo-48708.jpeg);
     background-size: cover;
-    font-family: impact;
+    font-family: helvetica;
     color: rgb(33, 236, 255);
 }
 
 h1 {
   text-align: center;
   font-size: 50px;
+  font-weight: bold;
 }
