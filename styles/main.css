@@ -76,7 +76,7 @@ ul  {
 }
 
 p {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 20px
 }
@@ -90,4 +90,11 @@ a {
 
 .blog-list > li > a:hover {
   color: rgb(235, 47, 220);
+}
+
+.four.columns:hover {
+  color: rgb(235, 47, 220);
+}
+.four.columns {
+  color: white;
 }
