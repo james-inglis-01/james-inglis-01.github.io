@@ -92,7 +92,7 @@ a {
   color: rgb(235, 47, 220);
 }
 
-.four.columns:hover {
+.four.columns > p:hover {
   color: rgb(235, 47, 220);
 }
 .four.columns {
