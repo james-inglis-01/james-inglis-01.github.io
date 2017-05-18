@@ -32,3 +32,6 @@ a:hover {
 .bulletLinks {
   text-decoration: underline;
 }
+#profile {
+  border-radius: 50%;
+}
