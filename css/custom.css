@@ -35,3 +35,6 @@ a:hover {
 #profile {
   border-radius: 50%;
 }
+.six.columns {
+  text-align: center;
+}
