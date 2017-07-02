@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>James' EDA Blog</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://james-inglis-01.github.io/css/normalize.css">
+  <link rel="stylesheet" href="https://james-inglis-01.github.io/css/skeleton.css">
+  <link rel="stylesheet" href="https://james-inglis-01.github.io/css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="https://james-inglis-01.github.io/images/favicon-eda-blog.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns topnav" id="mytopnav">
+        <a href="https://james-inglis-01.github.io/blog/index.html">Home</a>
+        <a href="https://james-inglis-01.github.io/blog/blog-template.html">Blog</a>
+        <a href="https://james-inglis-01.github.io/blog/about-me.html">About</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h1 class="mainTitle">Scope</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <p>
+              <strong>What is 'scope', and how does it work in JavaScript?</strong><br />
+              Scope is a way of assigning variables to the entirety of your JavaScript file (global scope) or to a specific function (local   scope). Scope defines the part of the program where a particular variable is accessible.
+              Imagine that our JavaScript file is the planet Earth. Cities, countries and even continents are like JavaScript functions   with local variables, even with the continent sized functions. However these are all surrounded by the oceans which can’t be  described as local because they wrap around everything else, therefore it’s called a global variable.<br />
+              <br /><strong>Here’s an example of a global & local variable (test):</strong>
+              <pre>
+                <code>var test = "I'm global";
+
+                function testScope() {
+                  var test = "I'm local";
+
+                  console.log (test);
+                }
+
+                testScope();           // output: I'm local
+
+                console.log(test);     // output: I'm global
+              </code>
+            </pre>
+            </p>
+        </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
