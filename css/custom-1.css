@@ -1,3 +1,26 @@
 body{
   font-family: 'Comfortaa', cursive;
 }
+
+.navbar-custom{
+  background-color: black;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #00cba8;
+}
+
+.navbar-custom .navbar-nav > li > a{
+  color: #00cba8;
+}
+
+.navbar-custom .navbar-nav > li > a:hover{
+  color: #c93a89;
+  background-color: black;
+}
+
+.navbar-custom .navbar-toggle .icon-bar{
+  background-color: #00cba8;
+}
