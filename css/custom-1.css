@@ -1,5 +1,12 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
 body{
   font-family: 'Comfortaa', cursive;
+  background-color: black;
+  color: white;
 }
 
 .navbar-custom{
@@ -17,10 +24,73 @@ body{
 }
 
 .navbar-custom .navbar-nav > li > a:hover{
-  color: #c93a89;
+  color: white;
   background-color: black;
 }
 
 .navbar-custom .navbar-toggle .icon-bar{
   background-color: #00cba8;
+}
+
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  padding-top: 7%;
+}
+
+.landing-text h1{
+  font-size: 500%;
+  color: #00cba8;
+}
+
+.btn-default{
+  background-color: black;
+  border-color: black;
+  color: #00cba8;
+}
+
+.padding{
+  padding: 80px 0;
+}
+
+footer{
+  width: 100%;
+  padding: 5% 5% 10% 5%;
+  color: white;
+}
+
+.fa{
+  padding: 20px 15px 15px 15px;
+  font-size: 30px;
+  color: white;
+}
+
+.fa:hover{
+  color: #D5D5D5;
+  text-decoration: none;
+}
+
+#home{
+  background: url(/Users/jamesinglis/workspace/james-inglis-01.github.io/images/alex-knight-326705-unsplash.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#me{
+  height: 250px;
+  border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+  .landing-text h1{
+    font-size: 300%;
+    padding-top: 15%;
+  }
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
 }
