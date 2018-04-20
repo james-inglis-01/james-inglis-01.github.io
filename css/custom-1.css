@@ -43,6 +43,10 @@ body{
   color: #00cba8;
 }
 
+.greenHeader{
+  color: #00cba8;
+}
+
 .btn-default{
   background-color: black;
   border-color: black;
@@ -66,12 +70,28 @@ footer{
 }
 
 .fa:hover{
-  color: #D5D5D5;
+  color: #00cba8;
   text-decoration: none;
 }
 
 #home{
   background: url(/Users/jamesinglis/workspace/james-inglis-01.github.io/images/tokyo-night.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#portfolioHeader{
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#aboutHeader{
   display: table;
   height: 100%;
   position: relative;
