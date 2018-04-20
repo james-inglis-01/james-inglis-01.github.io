@@ -91,6 +91,11 @@ footer{
   background-size: cover;
 }
 
+.portfolioImage{
+  width: 250px;
+  height: 250px;
+}
+
 #aboutHeader{
   display: table;
   height: 100%;
