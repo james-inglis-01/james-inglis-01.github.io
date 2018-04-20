@@ -52,6 +52,10 @@ a:hover{
   text-decoration: none;
 }
 
+.blogTitle:hover{
+  color: white;
+}
+
 .btn-default{
   background-color: black;
   border-color: black;
@@ -101,6 +105,10 @@ footer{
   height: 250px;
 }
 
+.rounded{
+  border-radius: 2%;
+}
+
 #aboutHeader{
   display: table;
   height: 100%;
@@ -111,7 +119,7 @@ footer{
 
 #me{
   height: 250px;
-  border-radius: 5%;
+  border-radius: 2%;
 }
 
 @media (max-width: 768px) {
