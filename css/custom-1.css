@@ -9,7 +9,12 @@ body{
   color: white;
 }
 
+li > a{
+  color: #00cba8;
+}
+
 a:hover{
+  color: white;
   text-decoration: none;
 }
 
@@ -85,6 +90,24 @@ footer{
 
 #home{
   background: url(/Users/jamesinglis/workspace/james-inglis-01.github.io/images/tokyo-night.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#blog1{
+  background: url() no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#blog2{
+  background: url() no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
