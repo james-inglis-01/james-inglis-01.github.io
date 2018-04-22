@@ -9,6 +9,11 @@ body{
   color: white;
 }
 
+/*works for headers on blog page*/
+.container .row a:hover{
+  color: white;
+}
+
 li > a{
   color: #00cba8;
 }
@@ -22,12 +27,6 @@ a:hover{
   background-color: black;
 }
 
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: #00cba8;
-}
-
 .navbar-custom .navbar-nav > li > a{
   color: #00cba8;
 }
@@ -39,6 +38,14 @@ a:hover{
 
 .navbar-custom .navbar-toggle .icon-bar{
   background-color: #00cba8;
+}
+
+.navbar-custom .navbar-brand{
+  color: #00cba8;
+}
+
+.navbar-custom .navbar-brand:hover{
+  color:white;
 }
 
 .landing-text{
