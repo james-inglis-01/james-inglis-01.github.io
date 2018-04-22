@@ -89,7 +89,7 @@ footer{
 }
 
 #home{
-  background: url(/Users/jamesinglis/workspace/james-inglis-01.github.io/images/tokyo-night.jpg) no-repeat center center fixed;
+  background: url(https://james-inglis-01.github.io/images/tokyo-night.jpg) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
