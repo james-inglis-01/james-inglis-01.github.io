@@ -64,6 +64,10 @@ a:hover{
   text-decoration: none;
 }
 
+.hoverWhite:hover{
+  color: white;
+}
+
 .blogTitle:hover{
   color: white;
 }
